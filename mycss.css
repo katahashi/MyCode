@@ -57,3 +57,21 @@
         font-size: 16px;
         cursor: pointer;
       }
+
+      .product:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        transform: translateY(-10px);
+      }
+
+      button {
+        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+        display: block;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
