@@ -75,3 +75,11 @@
         font-size: 16px;
         cursor: pointer;
       }
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 50%; /* Để hiển thị 2 sản phẩm trên mỗi hàng, đặt width của mỗi sản phẩm là 50% */
+}
