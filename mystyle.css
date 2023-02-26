@@ -1,0 +1,8 @@
+.contain_main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box_sanpham {
+  width: 50%; /* Để hiển thị 2 sản phẩm trên mỗi hàng, đặt width của mỗi sản phẩm là 50% */
+}
