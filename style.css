@@ -1,0 +1,42 @@
+#top{
+  width:800px;
+  height:50px;
+  background-color: red;
+  margin: auto;
+}
+#menu{
+  width: 800px;
+  height: 50px;
+  background-color: blue;
+  margin: auto;
+}
+#wrapper{
+  width:800px;
+  height:500px;
+  background-color: lightcyan;
+  margin: auto;
+}
+#left{
+  width: 140px;
+  height:500px;
+  background-color: magenta;
+  float: left;
+}
+#main{
+  width:500px;
+  height:500px;
+  background-color: yellow;
+  float:left;
+}
+#right{
+  width:160px;
+  height:500px;
+  background-color: green;
+  float: left;
+}
+#bottom{
+  width:800px;
+  height: 30px;
+  background-color: grey;
+  margin: auto;
+}
