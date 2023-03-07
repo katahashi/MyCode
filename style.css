@@ -1,18 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
 body{
   font-family: arial;
   font-size: 16px;
   width:800px;
   margin: auto;
   text-align: center;
-  color: white;
+  color: cyan;
 }
 #top{
   height:120px;
-  background-color: red;
+  background-color: blue;
 }
 #menu{
   height: 40px;
-  background-color: blue;
+  background-color: red;
   margin: 10px 0px 10px 0px;
   line-height: 40px;
   padding-left: 0px;
@@ -24,14 +27,27 @@ body{
 #menu ul li{
   float: left;
   width: 159px;
-  border-left: 1px solid #ffff;
+  border-left: 1px solid black;
+  position:relative; /*cố định li mà chúng ta hover*/
 }
 #menu ul li a{
   text-decoration: none;
-  color:white;
+  color:black;
 }
 #menu ul li a:hover{
-  color: yellow;
+  color: white;
+}
+.submenu{
+	display:none; /*Ẩn menu con*/
+	position:absolute; z-index:90; /*menu con nổi lên trên li cố định*/
+	background:#06F;
+}
+.submenu li{
+	border-right: 1px solid #000;
+	border-bottom: 1px dashed #000000;
+}
+#menu li:hover .submenu{
+	display:block; /*Hiện menu con khi hover*/
 }
 #wrapper{
   height:500px;
